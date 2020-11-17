@@ -66,6 +66,7 @@ import java.util.concurrent.locks.ReentrantLock;
             System.out.println("Повар готовит блюдо");
             sleep();
             System.out.println("Повар закончил готовить");
+            name = listOrder.get(0);
             listMakeOrder.add(listOrder.remove(0));
             order();
         } catch (InterruptedException e) {
