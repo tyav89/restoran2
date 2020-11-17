@@ -10,5 +10,6 @@ public class Main {
         new Customer(restoran, "1");
         new Customer(restoran, "2");
         new Customer(restoran, "3");
+        new Customer(restoran, "4");
     }
 }
